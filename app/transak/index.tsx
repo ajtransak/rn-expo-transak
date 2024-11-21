@@ -5,9 +5,10 @@ import { StyleSheet, Text, View } from "react-native";
 
 type Props = {};
 
+// replace the apiKey here with the Staging API Key from your Partner Dashboard: https://dashboard.transak.com/developers
 const Page = (props: Props) => {
   const transakConfig: TransakConfig = {
-    apiKey: "d79671a4-b021-4a4f-a444-6862a680a94b",
+    apiKey: "STAGING_API_KEY",
     environment: Transak.ENVIRONMENTS.STAGING,
   };
 
